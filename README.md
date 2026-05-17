@@ -1,19 +1,19 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=200&section=header&text=Akash%20Sharma&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Senior%20Backend%20Engineer%20%C2%B7%20FinTech%20%26%20HealthTech%20%C2%B7%20GenAI%2FML&descAlignY=56&descSize=18&descColor=c7d2fe" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=200&section=header&text=Akash%20Sharma&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20Platform%20Engineer%20%C2%B7%20Backend%20Systems%20%C2%B7%20Open%20Source&descAlignY=56&descSize=18&descColor=c7d2fe" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=6+years+building+backend+systems+at+scale;Python+%7C+FastAPI+%7C+Kafka+%7C+Redis+%7C+AWS;RAG+Pipelines+%26+LLM+Integrations+in+production;p99+%3C+200ms+%E2%80%A2+10K%2B+daily+disbursals;FinTech+%7C+HealthTech+%7C+GenAI%2FML" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=AI+Platform+Engineer;Building+Multi-tenant+RAG+Engines;Pluggable+LLMs+%C2%B7+Vector+Stores+%C2%B7+Embedders;Python+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+Next.js;6+years+in+FinTech+%26+HealthTech+backend" alt="Typing SVG" />
 </p>
 
 <br/>
 
 ```python
 class Akash:
-    role        = "Senior Software Engineer"
-    experience  = "6 years"
-    domains     = ["FinTech", "HealthTech"]
-    core        = ["Backend Systems", "Distributed Systems", "System Design"]
-    ai_ml       = ["RAG Pipelines", "LLM Integrations", "OpenAI API", "Pinecone"]
-    now         = "Building production-ready GenAI systems"
+    title       = "AI Platform Engineer"
+    background  = "6 years · FinTech & HealthTech backend systems"
+    focus       = ["RAG Systems", "LLM Infrastructure", "Multi-tenant AI Platforms"]
+    building    = ["TrueRAG — pluggable multi-tenant RAG engine",
+                   "TrueRAG Frontend — agent & eval management UI"]
+    stack       = ["Python", "FastAPI", "LangChain", "Next.js", "Pinecone", "Kafka"]
     blog        = "https://buildbeyondbackend.com"
 ```
 
@@ -21,7 +21,45 @@ class Akash:
 
 ---
 
-## ⚡ Tech Stack
+## Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### TrueRAG
+
+Multi-tenant RAG engine with fully pluggable components — vector stores, LLMs, embedders, chunkers, and rerankers switchable per agent via config. Zero code changes.
+
+**Stack**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### TrueRAG Frontend
+
+Web UI for TrueRAG. Manage agents, upload documents, chat, and run evals — all from one interface.
+
+**Stack**
+
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+---
+
+## Tech Stack
 
 <table>
 <tr>
@@ -89,15 +127,7 @@ class Akash:
 
 ---
 
-## 🏆 Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Akash1507&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="100%" />
-</div>
-
----
-
-## 📊 Stats
+## Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Akash1507&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="175" />
@@ -112,21 +142,9 @@ class Akash:
 
 ---
 
-## 🚀 What I've Shipped
+## Build Beyond Backend
 
-| System | Scale & Impact |
-|--------|---------------|
-| **Loan Origination** — Gold · Home · Micro · MSME | 10K+ daily disbursals · p99 30–200ms via Redis + Kafka |
-| **Property Auction Platform** | 2× assets sold per auction (3–4 → 7–8) |
-| **Lead Sourcing Platform** | 15K+ field partners · 100K+ monthly leads · offline-tolerant sync |
-| **Property Valuation Platform** | 20–25K valuations/month · high-volume low-latency APIs |
-| **AI/ML Inference Service** | Fine-tuned model deployment + dynamic prompt management |
-| **Clinical Physician Workflows** | 1000s concurrent sessions · real-time provider engagement |
-| **Django → Async FastAPI Migration** | 200 RPS → 350 RPS with stable latency |
-
----
-
-## ✍️ Build Beyond Backend
+> System design breakdowns · high-level architecture · backend engineering deep dives
 
 <p align="center">
   <a href="https://buildbeyondbackend.com">
@@ -134,13 +152,9 @@ class Akash:
   </a>
 </p>
 
-> System design breakdowns · high-level architecture · backend engineering deep dives
->
-> Translating 6 years of production experience into articles engineers actually want to read.
-
 ---
 
-## 🤝 Connect
+## Connect
 
 <p align="center">
   <a href="https://www.linkedin.com/in/akash1507/">
