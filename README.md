@@ -6,6 +6,8 @@
 
 <br/>
 
+## About
+
 ```python
 class Akash:
     title       = "AI Platform Engineer"
@@ -13,11 +15,9 @@ class Akash:
     focus       = ["RAG Systems", "LLM Infrastructure", "Multi-tenant AI Platforms"]
     building    = ["TrueRAG — pluggable multi-tenant RAG engine",
                    "TrueRAG Frontend — agent & eval management UI"]
-    stack       = ["Python", "FastAPI", "LangChain", "Next.js", "Pinecone", "Kafka"]
+    stack       = ["Python", "Go", "FastAPI", "LangChain", "Next.js", "Pinecone", "Kafka"]
     blog        = "https://buildbeyondbackend.com"
 ```
-
-<br/>
 
 ---
 
@@ -27,11 +27,17 @@ class Akash:
 <tr>
 <td width="50%" valign="top">
 
-### TrueRAG
+### TrueRAG &nbsp; `engine`
 
-Multi-tenant RAG engine with fully pluggable components — vector stores, LLMs, embedders, chunkers, and rerankers switchable per agent via config. Zero code changes.
+> Multi-tenant RAG engine with fully pluggable internals. Every component — vector store, LLM, embedder, chunker, reranker — is switchable per agent via config. Zero code changes.
 
-**Stack**
+**Highlights**
+- Multi-tenant isolation out of the box
+- Plug any vector store, LLM, or embedder
+- Per-agent config — no redeploy needed
+- Built for production eval loops
+
+<br/>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -42,11 +48,17 @@ Multi-tenant RAG engine with fully pluggable components — vector stores, LLMs,
 </td>
 <td width="50%" valign="top">
 
-### TrueRAG Frontend
+### TrueRAG Frontend &nbsp; `ui`
 
-Web UI for TrueRAG. Manage agents, upload documents, chat, and run evals — all from one interface.
+> Web UI for TrueRAG. One interface to manage agents, upload documents, chat against your knowledge base, and run evals end-to-end.
 
-**Stack**
+**Highlights**
+- Agent creation & configuration
+- Document upload & indexing pipeline
+- Chat with source attribution
+- Eval runner with result visualization
+
+<br/>
 
 ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
@@ -68,6 +80,7 @@ Web UI for TrueRAG. Manage agents, upload documents, chat, and run evals — all
 **Backend**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
