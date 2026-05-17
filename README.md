@@ -8,16 +8,14 @@
 
 ## About
 
-```python
-class Akash:
-    title       = "AI Platform Engineer"
-    background  = "6 years · FinTech & HealthTech backend systems"
-    focus       = ["RAG Systems", "LLM Infrastructure", "Multi-tenant AI Platforms"]
-    building    = ["TrueRAG — pluggable multi-tenant RAG engine",
-                   "TrueRAG Frontend — agent & eval management UI"]
-    stack       = ["Python", "Go", "FastAPI", "LangChain", "Next.js", "Pinecone", "Kafka"]
-    blog        = "https://buildbeyondbackend.com"
-```
+| | |
+|---|---|
+| **Role** | AI Platform Engineer |
+| **Background** | 6 years · FinTech & HealthTech |
+| **Focus** | RAG Systems · LLM Infrastructure · Multi-tenant AI Platforms |
+| **Building** | TrueRAG · TrueRAG Frontend |
+| **Stack** | Python · Go · FastAPI · LangChain · Next.js · Pinecone · Kafka |
+| **Blog** | [buildbeyondbackend.com](https://buildbeyondbackend.com) |
 
 ---
 
